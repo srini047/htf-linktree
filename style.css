@@ -1,0 +1,70 @@
+.div-head {
+    text-align: center;
+    padding: 20%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.div-link {
+    padding: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+section {
+    background-image: url("bgimg.png");
+    background-size: cover;
+    border-image-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
+    text-align: center;
+    margin-top: 1px;
+    padding: 20px 0;
+    max-width: 590px;
+    display: block;
+    border-style: solid;
+    border-color: rgb(231, 18, 18);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(247, 236, 213);
+    color: black;
+    border-radius: 20px;
+    text-decoration: solid;
+}
+
+.links:hover {
+    color: white;
+    background-color: rgb(233, 166, 42);
+    border: 2px solid;
+    border-color: black;
+}
+
+.made-with {
+    text-align: center;
+    color: white;
+}
+
+a.made-with:visited { 
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size: inherit
+}
+
+h4 {
+    color: white;
+    font-size: inherit;
+}
+
+img {
+    max-width: fit-content;
+    border-color: white;
+    border-style: groove;
+    size: inherit;
+    position: relative;
+}
