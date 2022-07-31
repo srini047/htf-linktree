@@ -1,34 +1,92 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" />
     <title>LinkTree</title>
-</head>
-<body>
+  </head>
+  <body>
     <section>
-        <div class="div-head">
-            <img src="logo_snip.PNG" alt="htf-logo" class="logo">
-            <h3>Hack This Fall 2.0 | Innovate for Good</h3>
-        </div>
-        <div class="div-link">
-            <a href= "https://hackthisfall.devpost.com/" target="_blank" class="links">Register Here</a>
-            <a href= "https://hackthisfall.tech/" target="_blank" class="links">Website</a>
-            <a href= "https://discord.hackthisfall.tech/" target="_blank" class="links">Join our Discord</a>
-            <a href= "https://bit.ly/htf2-he-guide" target="_blank" class="links">Evangelist Guide</a>
-            <a href= "https://bit.ly/htf2-referral" target="_blank" class="links">Referral Code List</a>
-            <a href="https://bit.ly/htf2-reward" target="_blank" class="links">Reward Form</a>
-            <a href="https://bit.ly/htf2-leaderboard" target="_blank" class="links">HTF-Evangelist Leaderboard</a>
-            <a href="https://docs.google.com/document/d/1x8bc-osrgXjGg9BYDVP3Dd9x-TW1zcjUDg2s4WVJLtQ/edit?usp=sharing" target="_blank" class="links">Social Media Caption</a>
-            <a href="https://drive.google.com/file/d/11CSjTtKL2UHo_Gaw_KwNfA-0gC7dfb4a/view?usp=sharing" target="_blank" class="links">Special GIF for You</a>
-        </div>
-        <div class="made-with">
-            <p >Made in 💗 with <a href="https://github.com/srini047/">Sriniketh J</a></p>
-        </div>
+      <div class="div-head">
+        <img src="logo_snip.PNG" alt="htf-logo" class="logo" />
+        <h3>Hack This Fall 2.0 | Innovate for Good</h3>
+      </div>
+      <div class="div-link">
+        <a
+          href="https://hackthisfall.devpost.com/"
+          target="_blank"
+          class="links"
+          >Register Here</a
+        >
+        <a href="https://hackthisfall.tech/" target="_blank" class="links"
+          >Website</a
+        >
+        <a
+          href="https://discord.hackthisfall.tech/"
+          target="_blank"
+          class="links"
+          >Join our Discord</a
+        >
+        <a href="https://bit.ly/htf2-he-guide" target="_blank" class="links"
+          >Evangelist Guide</a
+        >
+        <a href="https://bit.ly/htf2-referral" target="_blank" class="links"
+          >Referral Code List</a
+        >
+        <a href="https://bit.ly/htf2-reward" target="_blank" class="links"
+          >Reward Form</a
+        >
+        <a href="https://bit.ly/htf2-leaderboard" target="_blank" class="links"
+          >HTF-Evangelist Leaderboard</a
+        >
+        <a
+          href="https://docs.google.com/document/d/1x8bc-osrgXjGg9BYDVP3Dd9x-TW1zcjUDg2s4WVJLtQ/edit?usp=sharing"
+          target="_blank"
+          class="links"
+          >Social Media Caption</a
+        >
+        <a
+          href="https://drive.google.com/file/d/11CSjTtKL2UHo_Gaw_KwNfA-0gC7dfb4a/view?usp=sharing"
+          target="_blank"
+          class="links"
+          >Special GIF for You</a
+        >
+      </div>
+      <div class="made-with">
+        <p>
+          Made in 💗 with <a href="https://github.com/srini047/">Sriniketh J</a>
+        </p>
+      </div>
+
+      <!--     Docs QA     -->
+      <qa-bot
+        token="fke9aMFKFjPJGLJwUWjOGqgkF3eJX-wiCiGQBKgkFTPPDaRkGijeG7ArUC3UBqBkHy4="
+        theme="infer"
+        target="_self"
+        orientation="bottom-right"
+        title="DocsQA"
+        description="The cloud-native neural search framework"
+        show-tip
+      >
+        <template>
+          <dl>
+            <dt>You can ask questions about our docs. Try:</dt>
+            <dd>What is htf-linktree?</dd>
+            <dd>How to install htf-linktree?</dd>
+            <dd>Where can I get help?</dd>
+          </dl>
+        </template>
+        <template slot="texts">
+          <span for="tip">Hi there 👋 Ask our docs!</span>
+          <span for="unknownAnswerText"
+            >😵‍💫 I'm sorry but I don't know the answer.</span
+          >
+        </template>
+      </qa-bot>
+      <script src="https://cdn.jsdelivr.net/npm/qabot"></script>
     </section>
-</body>
+  </body>
 </html>
